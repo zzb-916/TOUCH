@@ -2,12 +2,7 @@ import time
 
 from selenium import webdriver
 
-        # 设置 Chrome 启动选项
-        options = webdriver.ChromeOptions()
-        options.add_argument('--disable-gpu')  # 禁用 GPU 加速
-        options.add_argument('start-maximized')  # 启动时最大化窗口
-        # 如果不希望浏览器显示，可以启用无头模式
-        # options.add_argument('--headless')  # 无头模式
+
 
         # 设置 ChromeDriver 的路径（请根据实际路径更新）
         chromedriver_path = r'D:\chromedriver-win64\chromedriver.exe'  # 替换为你的 chromedriver 路径
